@@ -1,0 +1,8 @@
+[package]
+name = "spark-invoice-doxxer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+lightning-invoice = "0.33.2"
+spark = { git = "https://github.com/breez/spark-sdk.git", rev = "aea3bd9758f2b95d6bcd76c68058a216ed9a66db", default-features = false }
