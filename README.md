@@ -2,6 +2,12 @@
 
 Extracts a spark address from an invoice.
 
+## Fedora Build Requirements
+
+```bash
+sudo dnf install protobuf-devel protobuf-compiler cargo
+```
+
 ## Usage
 
 ```bash
